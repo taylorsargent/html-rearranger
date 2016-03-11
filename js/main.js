@@ -15,9 +15,9 @@ $('body').append($h1Above);
 $('body').append($ulAbove);
 
 $('ul li').each(function () {
-  if($(this).hasClass('below')){
-    $ulBelow.append($(this))
-  } else{
-    $ulAbove.append($(this))
+  if ($(this).hasClass('below')) {
+    $ulBelow.append($(this));
+  } else {
+    $ulAbove.append($(this));
   }
 });
